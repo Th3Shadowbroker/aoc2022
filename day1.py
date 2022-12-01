@@ -14,6 +14,5 @@ with open("input.txt", "r") as inputFile:
 # Sort elfes by amount of carried calories (reverse because descending)
 elfes.sort(reverse=True)
 
-# Compare carried calories and get the total calories of the top 3
 print(f"Most carried calories by 1 elf: {elfes[0]}")
 print(f"Top 3 total: {sum(elfes[:3])}")
